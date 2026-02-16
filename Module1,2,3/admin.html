@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">Admin Dashboard</div>
+
+<div class="main">
+
+<div class="sidebar">
+<h3>Admin Panel</h3>
+<ul>
+<li>Dashboard</li>
+<li>Manage Users</li>
+<li>Reports</li>
+<li>Analytics</li>
+</ul>
+</div>
+
+<div class="content">
+
+<div class="cards">
+
+<div class="card blue">
+<h3>Total Users</h3>
+<p>120</p>
+</div>
+
+<div class="card green">
+<h3>Total Courses</h3>
+<p>25</p>
+</div>
+
+<div class="card orange">
+<h3>Total Exams</h3>
+<p>50</p>
+</div>
+
+</div>
+
+<div class="card">
+<h3>Add User</h3>
+<input type="text" id="adminUser" placeholder="Enter user name">
+<button onclick="addUser()">Add</button>
+
+<ul id="userList"></ul>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

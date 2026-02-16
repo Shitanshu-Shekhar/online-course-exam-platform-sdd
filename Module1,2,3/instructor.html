@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Instructor Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">Instructor Dashboard</div>
+
+<div class="main">
+
+<div class="sidebar">
+<h3>Instructor Panel</h3>
+<ul>
+<li>Create Course</li>
+<li>Upload Class</li>
+<li>Schedule Class</li>
+<li>Add DPP</li>
+</ul>
+</div>
+
+<div class="content">
+
+<div class="cards">
+
+<div class="card blue">
+<h3>My Courses</h3>
+<p>5</p>
+</div>
+
+<div class="card green">
+<h3>Live Classes</h3>
+<p>3</p>
+</div>
+
+<div class="card orange">
+<h3>DPP Created</h3>
+<p>12</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Create Course</h3>
+
+<input type="text" id="courseName" placeholder="Course name">
+
+<button onclick="addCourse()">Create</button>
+
+<ul id="courseList"></ul>
+
+</div>
+
+<div class="card">
+
+<h3>Upload Recorded Class</h3>
+
+<input type="text" id="videoName" placeholder="Video title">
+
+<button onclick="addVideo()">Upload</button>
+
+<ul id="videoList"></ul>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

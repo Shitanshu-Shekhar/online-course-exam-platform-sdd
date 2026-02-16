@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">Student Dashboard</div>
+
+<div class="main">
+
+<div class="sidebar">
+<h3>Student Panel</h3>
+<ul>
+<li>My Courses</li>
+<li>Live Classes</li>
+<li>Exams</li>
+<li>Certificates</li>
+</ul>
+</div>
+
+<div class="content">
+
+<div class="cards">
+
+<div class="card blue">
+<h3>Enrolled Courses</h3>
+<p>4</p>
+</div>
+
+<div class="card green">
+<h3>Completed Exams</h3>
+<p>10</p>
+</div>
+
+<div class="card orange">
+<h3>Certificates</h3>
+<p>2</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Recorded Classes</h3>
+
+<ul>
+<li>Java Basics <button onclick="watch()">Watch</button></li>
+<li>System Design <button onclick="watch()">Watch</button></li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Exam</h3>
+
+<button onclick="attemptExam()">Attempt Exam</button>
+
+<p id="result"></p>
+
+</div>
+
+<div class="card">
+
+<h3>Certificate</h3>
+
+<button onclick="downloadCert()">Download Certificate</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

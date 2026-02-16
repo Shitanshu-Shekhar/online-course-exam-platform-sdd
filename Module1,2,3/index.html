@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Course Platform</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+
+
+body {
+margin:0;
+font-family:Segoe UI;
+background: linear-gradient(135deg, #667eea, #764ba2);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+
+
+.home-container {
+
+background: rgba(255,255,255,0.15);
+backdrop-filter: blur(10px);
+padding:40px;
+border-radius:15px;
+text-align:center;
+color:white;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+
+}
+
+
+
+.home-container h1 {
+margin-bottom:10px;
+}
+
+.home-container p {
+margin-bottom:30px;
+}
+
+
+
+.role-btn {
+
+display:block;
+width:250px;
+margin:10px auto;
+padding:12px;
+font-size:16px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+background:white;
+color:#333;
+transition:0.3s;
+
+}
+
+.role-btn:hover {
+
+transform: scale(1.05);
+background:#f1f1f1;
+
+}
+
+
+
+.icon {
+font-size:40px;
+margin-bottom:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="home-container">
+
+<div class="icon">🎓</div>
+
+<h1>Online Course Platform</h1>
+
+<p>Select your role to continue</p>
+
+<button class="role-btn" onclick="goAdmin()">
+👨‍💼 Admin Dashboard
+</button>
+
+<button class="role-btn" onclick="goInstructor()">
+👨‍🏫 Instructor Dashboard
+</button>
+
+<button class="role-btn" onclick="goStudent()">
+👨‍🎓 Student Dashboard
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html> 
+
+
+ 
